@@ -1,0 +1,240 @@
+{
+  "start_url": "http://127.0.0.1:8099/",
+  "created_at": "2026-10-07T18:41:59+00:00",
+  "score": 74,
+  "pages_crawled": 5,
+  "counts": {
+    "error": 4,
+    "warning": 7,
+    "notice": 13
+  },
+  "pages": [
+    {
+      "url": "http://127.0.0.1:8099/",
+      "status": 200,
+      "title": "Swift Couriers | Same-day delivery in Lagos and Abuja",
+      "meta_description": "Swift Couriers offers same-day parcel delivery, tracking and business logistics across Lagos, Abuja and Port Harcourt.",
+      "h1": [
+        "Same-day delivery across Nigeria"
+      ],
+      "word_count": 494,
+      "load_ms": 1,
+      "score": 85
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "status": 200,
+      "title": "About",
+      "meta_description": "",
+      "h1": [
+        "About us",
+        "Our story"
+      ],
+      "word_count": 13,
+      "load_ms": 1,
+      "score": 49
+    },
+    {
+      "url": "http://127.0.0.1:8099/services.html",
+      "status": 200,
+      "title": "About",
+      "meta_description": "",
+      "h1": [],
+      "word_count": 7,
+      "load_ms": 1,
+      "score": 59
+    },
+    {
+      "url": "http://127.0.0.1:8099/blog/",
+      "status": 200,
+      "title": "Swift Couriers Blog: shipping tips for Nigerian businesses",
+      "meta_description": "Short.",
+      "h1": [
+        "Blog"
+      ],
+      "word_count": 2,
+      "load_ms": 1,
+      "score": 94
+    },
+    {
+      "url": "http://127.0.0.1:8099/missing-page.html",
+      "status": 404,
+      "title": "",
+      "meta_description": "",
+      "h1": [],
+      "word_count": 0,
+      "load_ms": 1,
+      "score": 85
+    }
+  ],
+  "issues": [
+    {
+      "url": "http://127.0.0.1:8099/",
+      "severity": "error",
+      "code": "broken-link",
+      "message": "Broken link (HTTP 404): http://127.0.0.1:8099/missing-page.html",
+      "fix": "Fix the URL or remove the link."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "error",
+      "code": "viewport-missing",
+      "message": "No mobile viewport meta tag",
+      "fix": "Add <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">."
+    },
+    {
+      "url": "http://127.0.0.1:8099/missing-page.html",
+      "severity": "error",
+      "code": "http-error",
+      "message": "Page returns HTTP 404",
+      "fix": "Fix or redirect the page, and update links to it."
+    },
+    {
+      "url": "http://127.0.0.1:8099/services.html",
+      "severity": "error",
+      "code": "h1-missing",
+      "message": "No <h1> heading",
+      "fix": "Add one H1 that states the page topic."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "warning",
+      "code": "description-missing",
+      "message": "Missing meta description",
+      "fix": "Write a 70-160 character summary that invites clicks."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "warning",
+      "code": "h1-multiple",
+      "message": "2 <h1> headings",
+      "fix": "Use a single H1 and H2-H6 for sections."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "warning",
+      "code": "img-alt-missing",
+      "message": "2 of 2 images have no alt text",
+      "fix": "Describe each meaningful image in its alt attribute."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "warning",
+      "code": "title-duplicate",
+      "message": "Duplicate title shared with 1 other page(s)",
+      "fix": "Write a unique title for each page."
+    },
+    {
+      "url": "http://127.0.0.1:8099/services.html",
+      "severity": "warning",
+      "code": "description-missing",
+      "message": "Missing meta description",
+      "fix": "Write a 70-160 character summary that invites clicks."
+    },
+    {
+      "url": "http://127.0.0.1:8099/services.html",
+      "severity": "warning",
+      "code": "noindex",
+      "message": "Page is set to noindex",
+      "fix": "Remove noindex if this page should appear in Google."
+    },
+    {
+      "url": "http://127.0.0.1:8099/services.html",
+      "severity": "warning",
+      "code": "title-duplicate",
+      "message": "Duplicate title shared with 1 other page(s)",
+      "fix": "Write a unique title for each page."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "notice",
+      "code": "title-short",
+      "message": "Title is only 5 characters",
+      "fix": "Add your main keyword and brand."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "notice",
+      "code": "heading-skip",
+      "message": "Heading level skips from H1 to H4",
+      "fix": "Keep heading levels sequential for accessibility."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "notice",
+      "code": "canonical-missing",
+      "message": "No canonical URL",
+      "fix": "Add <link rel=\"canonical\"> to avoid duplicate content."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "notice",
+      "code": "lang-missing",
+      "message": "<html> has no lang attribute",
+      "fix": "Add lang=\"en\" (or your language)."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "notice",
+      "code": "thin-content",
+      "message": "Only 13 words of content",
+      "fix": "Pages with under 250 words rarely rank. Expand it."
+    },
+    {
+      "url": "http://127.0.0.1:8099/about.html",
+      "severity": "notice",
+      "code": "og-missing",
+      "message": "No Open Graph tags",
+      "fix": "Add og:title, og:description and og:image for better social sharing."
+    },
+    {
+      "url": "http://127.0.0.1:8099/blog/",
+      "severity": "notice",
+      "code": "description-short",
+      "message": "Meta description is only 6 characters",
+      "fix": "Aim for 70-160."
+    },
+    {
+      "url": "http://127.0.0.1:8099/blog/",
+      "severity": "notice",
+      "code": "thin-content",
+      "message": "Only 2 words of content",
+      "fix": "Pages with under 250 words rarely rank. Expand it."
+    },
+    {
+      "url": "http://127.0.0.1:8099/blog/",
+      "severity": "notice",
+      "code": "og-missing",
+      "message": "No Open Graph tags",
+      "fix": "Add og:title, og:description and og:image for better social sharing."
+    },
+    {
+      "url": "http://127.0.0.1:8099/services.html",
+      "severity": "notice",
+      "code": "title-short",
+      "message": "Title is only 5 characters",
+      "fix": "Add your main keyword and brand."
+    },
+    {
+      "url": "http://127.0.0.1:8099/services.html",
+      "severity": "notice",
+      "code": "canonical-missing",
+      "message": "No canonical URL",
+      "fix": "Add <link rel=\"canonical\"> to avoid duplicate content."
+    },
+    {
+      "url": "http://127.0.0.1:8099/services.html",
+      "severity": "notice",
+      "code": "thin-content",
+      "message": "Only 7 words of content",
+      "fix": "Pages with under 250 words rarely rank. Expand it."
+    },
+    {
+      "url": "http://127.0.0.1:8099/services.html",
+      "severity": "notice",
+      "code": "og-missing",
+      "message": "No Open Graph tags",
+      "fix": "Add og:title, og:description and og:image for better social sharing."
+    }
+  ]
+}
